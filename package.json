@@ -1,0 +1,27 @@
+{
+  "name": "local-church",
+  "version": "0.0.1",
+  "description": "Show local churches",
+  "author": "drew@pow.rs",
+  "license": "ISC",
+  "main": "index.js",
+  "engines": {
+    "node": "7.7.1"
+  },
+  "scripts": {
+    "scrape": "server/index.js",
+    "test": "server/test.js"
+  },
+  "dependencies": {
+    "@google/maps": "^0.3.1",
+    "babel-core": "^6.23.1",
+    "babel-preset-env": "^1.2.1",
+    "jsonfile": "^2.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
